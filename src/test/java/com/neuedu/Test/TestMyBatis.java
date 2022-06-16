@@ -163,6 +163,7 @@ public class TestMyBatis {
 		
 	}
 	
+	
 	@Test
 	public void test6(){
 		InputStream inputStream;
