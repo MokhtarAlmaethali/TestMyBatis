@@ -131,10 +131,6 @@ public class TestMyBatis {
 		
 	}
 	
-	
-	
-	
-	
 	@Test
 	public void test5(){
 		InputStream inputStream;
@@ -160,6 +156,42 @@ public class TestMyBatis {
 		 	for(Employee e:list){
 		 	System.out.println(e.getEmpno()+"\t"+e.getName()+"\t"+e.getSal()+"\t"+e.getHiredate()+"\t"+e.getDeptno());
 		 	}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	@Test
+	public void test6(){
+		InputStream inputStream;
+		try {
+			inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+			//get SqlSessionFactory 
+			SqlSessionFactory sqlSessionFactory =
+					  new SqlSessionFactoryBuilder().build(inputStream); 
+			//get sqlSession
+			
+		 	SqlSession session= sqlSessionFactory.openSession();
+			
+		 	//validate the session(connected to database or not)
+		 	System.out.println(session);
+//		 	get mapper
+		 	
+		 	EmployeeMapper employeemapper= session.getMapper(EmployeeMapper.class);
+		 	
+		 	Employee emp=new Employee();
+		 	emp.setName("Ali");
+		 	emp.setSal(10000.00);
+		 	emp.setHiredate(Date.valueOf("2022-06-16"));
+		 	emp.setDeptno(3);
+		 	employeemapper.addEmployee(emp);
+		 	
+		 	// for mybatis, for insert, update, delete , we must commit the changes
+		 	session.commit();
+		 	
+		 	
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

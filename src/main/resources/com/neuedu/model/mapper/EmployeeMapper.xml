@@ -29,12 +29,16 @@
   		select * from Employee where name = #{name} and hiredate = #{hiredate}
   	</select>
   	
-  	
-  	
   	<!-- data binding here refers key and value of hashmap -->
   	<select id="getEmployeeByCondition3" resultType="com.neuedu.model.po.Employee" >
   		select * from Employee where name = #{name} and hiredate = #{hiredate}
   	</select>
+  	
+  	<!--  -->
+  	<insert id="addEmployee">
+  		insert into Employee values(null,#{name},#{sal},#{hiredate},#{deptno})
+  	</insert>
+  	
   	
   	
   </mapper>
