@@ -34,8 +34,7 @@
   		select * from Employee where name = #{name} and hiredate = #{hiredate}
   	</select>
   	
-  	<!--  -->
-  	
+  	<!--  -->	
   	<insert id="addEmployee">
   		insert into Employee values(null,#{name},#{sal},#{hiredate},#{deptno})
   	</insert>
