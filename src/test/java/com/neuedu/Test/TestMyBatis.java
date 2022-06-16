@@ -3,6 +3,7 @@ package com.neuedu.Test;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Date;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.ibatis.io.Resources;
@@ -120,6 +121,38 @@ public class TestMyBatis {
 		 	condition.setName("nicle");
 		 	condition.setHiredate(Date.valueOf("2018-02-04"));
 		 	List<Employee> list=employeemapper.getEmployeeByCondition2(condition);
+		 	for(Employee e:list){
+		 	System.out.println(e.getEmpno()+"\t"+e.getName()+"\t"+e.getSal()+"\t"+e.getHiredate()+"\t"+e.getDeptno());
+		 	}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	@Test
+	public void test5(){
+		InputStream inputStream;
+		try {
+			inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+			//get SqlSessionFactory 
+			SqlSessionFactory sqlSessionFactory =
+					  new SqlSessionFactoryBuilder().build(inputStream); 
+			//get sqlSession
+			
+		 	SqlSession session= sqlSessionFactory.openSession();
+			
+		 	//validate the session(connected to database or not)
+		 	System.out.println(session);
+//		 	get mapper
+		 	
+		 	EmployeeMapper employeemapper= session.getMapper(EmployeeMapper.class);
+		 	
+		 	HashMap<String, Object> condition=new HashMap<>();
+		 	condition.put("name", "nicle");
+		 	condition.put("hiredate",Date.valueOf("2018-02-04"));
+		 	List<Employee> list=employeemapper.getEmployeeByCondition3(condition);
 		 	for(Employee e:list){
 		 	System.out.println(e.getEmpno()+"\t"+e.getName()+"\t"+e.getSal()+"\t"+e.getHiredate()+"\t"+e.getDeptno());
 		 	}

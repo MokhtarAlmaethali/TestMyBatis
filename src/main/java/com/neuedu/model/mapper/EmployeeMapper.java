@@ -1,6 +1,7 @@
 package com.neuedu.model.mapper;
 
 import java.sql.Date;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
@@ -16,4 +17,7 @@ public interface EmployeeMapper {
 	public List<Employee> getEmployeeByName(String name);
 	public List<Employee> getEmployeeByCondition(@Param("ename") String name,@Param("hireda") Date hiredate);
 	public List<Employee> getEmployeeByCondition2(Employee condition);
+	public List<Employee> getEmployeeByCondition3(HashMap m);
+ 
+
 }
