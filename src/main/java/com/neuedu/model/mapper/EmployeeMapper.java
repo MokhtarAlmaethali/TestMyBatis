@@ -17,6 +17,8 @@ public interface EmployeeMapper {
 	public List<Employee> getEmployeeByName(String name);
 	public List<Employee> getEmployeeByCondition(@Param("ename") String name,@Param("hireda") Date hiredate);
 	public List<Employee> getEmployeeByCondition2(Employee condition);
+	
+	
 	public List<Employee> getEmployeeByCondition3(HashMap m);
  
 

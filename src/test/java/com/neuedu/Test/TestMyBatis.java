@@ -131,6 +131,10 @@ public class TestMyBatis {
 		
 	}
 	
+	
+	
+	
+	
 	@Test
 	public void test5(){
 		InputStream inputStream;
