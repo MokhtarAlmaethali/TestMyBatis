@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <!-- namespace specify where its interface locates -->
+  <mapper namespace="com.neuedu.model.mapper.EmployeeMapper">
+  
+  	<!-- for resultType, if it is a list, just write data type of list content-->
+  	<select id="getAllEmployees" resultType="com.neuedu.model.po.Employee">
+  		select * from Employee
+  	</select>
+  	
+  	<select id="getEmployeeById" resultType="com.neuedu.model.po.Employee" parameterType="int">
+  		select * from Employee where empno = #{empno}
+  	</select>
+  	
+  	<select id="getEmployeeByName" resultType="com.neuedu.model.po.Employee" parameterType="String">
+  		select * from Employee where name= #{ename}
+  	</select>
+  	
+  	<!-- data binding is done by name, where there are multiple arguments -->
+  	<select id="getEmployeeByCondition" resultType="com.neuedu.model.po.Employee" >
+  		select * from Employee where name = #{ename} and hiredate = #{hireda}
+  	</select>
+  	
+  	<!-- data binding here refers to field/property of the parameter passed in -->
+  	<select id="getEmployeeByCondition2" resultType="com.neuedu.model.po.Employee" >
+  		select * from Employee where name = #{name} and hiredate = #{hiredate}
+  	</select>
+  	
+  	
+  </mapper>
