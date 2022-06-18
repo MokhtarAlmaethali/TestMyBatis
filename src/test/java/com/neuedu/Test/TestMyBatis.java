@@ -199,5 +199,37 @@ public class TestMyBatis {
 		
 	}
 	
+	@Test
+	public void test7(){
+		InputStream inputStream;
+		try {
+			
+			inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+			//get SqlSessionFactory 
+			SqlSessionFactory sqlSessionFactory =
+					  new SqlSessionFactoryBuilder().build(inputStream); 
+			//get sqlSession
+			
+		 	SqlSession session= sqlSessionFactory.openSession();
+			
+		 	//validate the session(connected to database or not)
+		 	System.out.println(session);
+//		 	get mapper
+		 	
+		 	EmployeeMapper employeemapper= session.getMapper(EmployeeMapper.class);
+		 	
+		 	employeemapper.deleteEmployee(28);
+		 	
+		 	// for mybatis, for insert, update, delete , we must commit the changes
+		 	session.commit();
+		 	
+		 	
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
 
 }
