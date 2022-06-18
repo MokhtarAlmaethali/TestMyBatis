@@ -46,6 +46,11 @@
   		delete from Employee where empno=#{empno}
   	</delete>
   	
+  	<!--  -->
+  	<update id="updateEmployee">
+  		update employee set name=#{name}  where empno=#{empno}
+  		
+  	</update>
   	
   	
   </mapper>
