@@ -6,16 +6,25 @@ import java.sql.Date;
 import java.util.HashMap;
 import java.util.List;
 
+
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.neuedu.model.mapper.EmployeeMapper;
 import com.neuedu.model.po.Employee;
 
+
 public class TestMyBatis {
+	
+//	if we want to output some message instead of console see logvack.xml
+	Logger logger=LoggerFactory.getLogger(TestMyBatis.class);
+	
+//	config the output message to file
 	@Test
 	public void test1(){
 		InputStream inputStream;
@@ -234,6 +243,7 @@ public class TestMyBatis {
 	}
 	@Test
 	public void test8(){
+		logger.info("test8 start to run");
 		InputStream inputstream;
 		try {
 			inputstream = Resources.getResourceAsStream("mybatis-config.xml");
@@ -258,6 +268,7 @@ public class TestMyBatis {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			logger.error(e.getMessage());
 		}
 	}
 	

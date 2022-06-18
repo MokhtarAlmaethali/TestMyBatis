@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<configuration>
+	<!-- show the result of the logger in the console -->
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%5level [%thread] - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="org.mybatis.example.BlogMapper">
+    <level value="debug"/>
+  </logger>
+  <root level="debug">
+    <appender-ref ref="stdout"/>
+  </root>
+  
+  <!-- to save the output of the logger to file  -->
+ <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <!-- specify the location of the logger file -->
+    <file>C:\Users\itmok\Documents\workspace-sts-3.8.4.RELEASE\TestMyBatis\src\test\java\testFile.log</file>
+    <append>true</append>
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+    <pattern>%5level [%thread] - %msg%n</pattern>
+    </encoder>
+  </appender>
+  <root level="DEBUG">
+    <appender-ref ref="FILE" />
+  </root>
+</configuration>
