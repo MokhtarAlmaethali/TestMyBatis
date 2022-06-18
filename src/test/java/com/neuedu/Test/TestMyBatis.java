@@ -131,6 +131,8 @@ public class TestMyBatis {
 		
 	}
 	
+	
+	
 	@Test
 	public void test5(){
 		InputStream inputStream;
@@ -204,13 +206,16 @@ public class TestMyBatis {
 		InputStream inputStream;
 		try {
 			
+			
+			
 			inputStream = Resources.getResourceAsStream("mybatis-config.xml");
 			//get SqlSessionFactory 
 			SqlSessionFactory sqlSessionFactory =
 					  new SqlSessionFactoryBuilder().build(inputStream); 
 			//get sqlSession
 			
-		 	SqlSession session= sqlSessionFactory.openSession();
+		 	
+			SqlSession session= sqlSessionFactory.openSession();
 			
 		 	//validate the session(connected to database or not)
 		 	System.out.println(session);

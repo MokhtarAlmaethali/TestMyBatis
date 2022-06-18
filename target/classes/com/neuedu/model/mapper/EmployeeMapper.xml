@@ -39,6 +39,8 @@
   		insert into Employee values(null,#{name},#{sal},#{hiredate},#{deptno})
   	</insert>
   	
+  	
+  	
   	<!--  -->
   	<delete id="deleteEmployee" parameterType="int">
   		delete from Employee where empno=#{empno}
