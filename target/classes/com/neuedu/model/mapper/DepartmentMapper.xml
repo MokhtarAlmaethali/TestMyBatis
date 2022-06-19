@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
   
   <mapper namespace="com.neuedu.model.mapper.DepartmentMapper">
-  	<select id="getAllDepartment" resultType="com.neuedu.model.po.Department" >
+  	<select id="getAllDepartment" resultType="Department" >
   		select * from department
   	</select>
   	

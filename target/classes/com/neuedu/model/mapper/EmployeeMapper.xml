@@ -7,7 +7,7 @@
   <mapper namespace="com.neuedu.model.mapper.EmployeeMapper">
   
   	<!-- for resultType, if it is a list, just write data type of list content-->
-  	<select id="getAllEmployees" resultType="com.neuedu.model.po.Employee">
+  	<select id="getAllEmployees" resultType="Employee">
   		select * from Employee
   	</select>
   	
@@ -15,12 +15,12 @@
   		select * from Employee where empno = #{empno}
   	</select>
   	
-  	<select id="getEmployeeByName" resultType="com.neuedu.model.po.Employee" parameterType="String">
+  	<select id="getEmployeeByName" resultType="Employee" parameterType="String">
   		select * from Employee where name= #{ename}
   	</select>
   	
   	<!-- data binding is done by name, where there are multiple arguments -->
-  	<select id="getEmployeeByCondition" resultType="com.neuedu.model.po.Employee" >
+  	<select id="getEmployeeByCondition" resultType="Employee" >
   		select * from Employee where name = #{ename} and hiredate = #{hireda}
   	</select>
   	
@@ -30,7 +30,7 @@
   	</select>
   	
   	<!-- data binding here refers key and value of hashmap -->
-  	<select id="getEmployeeByCondition3" resultType="com.neuedu.model.po.Employee" >
+  	<select id="getEmployeeByCondition3" resultType="Employee" >
   		select * from Employee where name = #{name} and hiredate = #{hiredate}
   	</select>
   	

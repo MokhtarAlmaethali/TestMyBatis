@@ -5,6 +5,18 @@
 
 
 <configuration>
+
+	<!-- instead write the whole name of the package in the Mapper.xml
+		eg,.(resultType="com.neuedu.model.po.Department") we can use this tag to write only the class name 
+		Employee is alias for com.neuedu.model.op.Employee
+		Department is alias for com.neuedu.model.op.Department
+		
+		-->
+		
+	<typeAliases>
+		<package name="com.neuedu.model.po"/>
+	</typeAliases>
+	 
   <environments default="development">
     <environment id="development">
       <transactionManager type="JDBC"/>
@@ -20,10 +32,12 @@
   
   
   <mappers>
-    <mapper resource="com/neuedu/model/mapper/EmployeeMapper.xml"/>
-    <mapper resource="com/neuedu/model/mapper/DepartmentMapper.xml"/>
-  </mappers>
-
+<!--     <mapper resource="com/neuedu/model/mapper/EmployeeMapper.xml"/>
+    	 <mapper resource="com/neuedu/model/mapper/DepartmentMapper.xml"/>
+ -->
+ <!-- instead of adding each mapper here we can use the name of package -->
+ 		<package name="com.neuedu.model.mapper"/>
+   </mappers>
 
 
 </configuration>
