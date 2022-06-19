@@ -15,14 +15,16 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.neuedu.model.mapper.DepartmentMapper;
 import com.neuedu.model.mapper.EmployeeMapper;
+import com.neuedu.model.po.Department;
 import com.neuedu.model.po.Employee;
 
 
-public class TestMyBatis {
+public class TestEmployeeMapper {
 	
 //	if we want to output some message instead of console see logvack.xml
-	Logger logger=LoggerFactory.getLogger(TestMyBatis.class);
+	Logger logger=LoggerFactory.getLogger(TestEmployeeMapper.class);
 	
 //	config the output message to file
 	@Test
@@ -271,6 +273,8 @@ public class TestMyBatis {
 			logger.error(e.getMessage());
 		}
 	}
+	
+	
 	
 
 }

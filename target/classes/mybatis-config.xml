@@ -21,6 +21,7 @@
   
   <mappers>
     <mapper resource="com/neuedu/model/mapper/EmployeeMapper.xml"/>
+    <mapper resource="com/neuedu/model/mapper/DepartmentMapper.xml"/>
   </mappers>
 
 

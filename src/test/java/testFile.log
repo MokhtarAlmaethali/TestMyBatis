@@ -24,3 +24,71 @@ DEBUG [main] - ==>  Preparing: update employee set name=? where empno=?
 DEBUG [main] - ==> Parameters: Ali(String), 29(Integer)
 DEBUG [main] - <==    Updates: 1
 DEBUG [main] - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1198b989]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 331418503.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13c10b87]
+DEBUG [main] - ==>  Preparing: select * from department
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 10
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 331418503.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13c10b87]
+DEBUG [main] - ==>  Preparing: select * from department
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 10
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 331418503.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13c10b87]
+DEBUG [main] - ==>  Preparing: select * from department
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 10
