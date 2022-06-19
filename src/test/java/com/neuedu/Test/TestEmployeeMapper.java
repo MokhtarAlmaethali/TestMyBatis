@@ -195,10 +195,10 @@ public class TestEmployeeMapper {
 		 	EmployeeMapper employeemapper= session.getMapper(EmployeeMapper.class);
 		 	
 		 	Employee emp=new Employee();
-		 	emp.setName("Mokhtar");
+		 	emp.setName("Mohammed");
 		 	emp.setSal(10000.00);
-		 	emp.setHiredate(Date.valueOf("2022-06-16"));
-		 	emp.setDeptno(3);
+		 	emp.setHiredate(Date.valueOf("2022-06-19"));
+		 	emp.setDeptno(6);
 		 	employeemapper.addEmployee(emp);
 		 	
 		 	// for mybatis, for insert, update, delete , we must commit the changes

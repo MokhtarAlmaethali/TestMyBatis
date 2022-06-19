@@ -8,4 +8,33 @@
   		select * from department
   	</select>
   	
+  	<!-- hashmap work fine if the relationship between the tables is one2one -->
+  	<select id="getEmployees" resultType="hashmap">
+  		select e.* ,d.dname,d.dloc
+  			from employee e,department d
+  			where e.deptno=d.deptno
+  	</select>
+  	
+  	<select id="getEmployees2" resultMap="_empdept">
+  		select e.* ,d.dname,d.dloc
+  			from employee e,department d
+  			where e.deptno=d.deptno
+  	</select>
+  	
+  <!-- id == resultMap of another select 
+  	   type == return type of interface definition-->
+  	<resultMap type="Employee" id="_empdept">
+  		<id property="empno" column="empno"/>
+	  		<result property="name" column="name"/>
+	  		<result property="sal" column="sal"/>
+	  		<result property="hiredate" column="hiredate"/>
+	  	
+	  	<!-- to define the instance we use association tag -->
+	  	<association property="dept" javaType="Department">
+	  		<id property="deptno" column="deptno"/>
+		  		<result property="dname" column="dname"/>
+		  		<result property="dloc" column="dloc"/>
+	  	</association>
+  	</resultMap>
+  	
   </mapper>

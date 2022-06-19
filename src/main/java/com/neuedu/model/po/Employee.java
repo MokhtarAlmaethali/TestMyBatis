@@ -8,9 +8,24 @@ public class Employee {
 	private String name;
 	private double sal;
 	private Date hiredate;
-	private int deptno;
+//	deptno is useless because we have instance of department
+//	private int deptno;
+	
+	private Department dept=new Department();
 
 	
+	public Department getDept() {
+		return dept;
+	}
+	public void setDept(Department dept) {
+		this.dept = dept;
+	}
+	public int getDeptno() {
+		return dept.getDeptno();
+	}
+	public void setDeptno(int deptno) {
+		this.dept.setDeptno(deptno);
+	}
 	public int getEmpno() {
 		return empno;
 	}
@@ -35,11 +50,6 @@ public class Employee {
 	public void setHiredate(Date hiredate) {
 		this.hiredate = hiredate;
 	}
-	public int getDeptno() {
-		return deptno;
-	}
-	public void setDeptno(int deptno) {
-		this.deptno = deptno;
-	}
+	
 	
 }

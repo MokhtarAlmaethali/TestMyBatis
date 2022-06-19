@@ -229,3 +229,638 @@ DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JD
 DEBUG [main] - ==>  Preparing: select * from department
 DEBUG [main] - ==> Parameters: 
 DEBUG [main] - <==      Total: 10
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 5  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; deptno <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 407697359.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184cf7cf]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where e.empno=d.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 5
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 5  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; deptno <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 407697359.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184cf7cf]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where e.empno=d.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 5
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 5  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; deptno <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 407697359.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184cf7cf]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where e.deptno=d.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 7
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 5  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; deptno <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 407697359.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184cf7cf]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where d.deptno=e.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 7
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 1340565491.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4fe767f3]
+DEBUG [main] - ==>  Preparing: insert into Employee values(null,?,?,?,?)
+DEBUG [main] - ==> Parameters: Salah(String), 10000.0(Double), 2022-06-19(Date), 5(Integer)
+DEBUG [main] - <==    Updates: 1
+DEBUG [main] - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4fe767f3]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 1340565491.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4fe767f3]
+DEBUG [main] - ==>  Preparing: insert into Employee values(null,?,?,?,?)
+DEBUG [main] - ==> Parameters: Mohammed(String), 10000.0(Double), 2022-06-19(Date), 7(Integer)
+DEBUG [main] - <==    Updates: 1
+DEBUG [main] - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4fe767f3]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 >  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 1340565491.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4fe767f3]
+DEBUG [main] - ==>  Preparing: insert into Employee values(null,?,?,?,?)
+DEBUG [main] - ==> Parameters: Mohammed(String), 10000.0(Double), 2022-06-19(Date), 6(Integer)
+DEBUG [main] - <==    Updates: 1
+DEBUG [main] - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4fe767f3]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4   (com/neuedu/model/mapper/DepartmentMapper  java/lang/Object getAllDepartment ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lcom/neuedu/model/po/Department;>; getEmployees M()Ljava/util/List<Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;>; 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4   (com/neuedu/model/mapper/DepartmentMapper  java/lang/Object getAllDepartment ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lcom/neuedu/model/po/Department;>; getEmployees M()Ljava/util/List<Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;>; 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4   (com/neuedu/model/mapper/DepartmentMapper  java/lang/Object getAllDepartment ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lcom/neuedu/model/po/Department;>; getEmployees M()Ljava/util/List<Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;>; 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4   (com/neuedu/model/mapper/DepartmentMapper  java/lang/Object getAllDepartment ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lcom/neuedu/model/po/Department;>; getEmployees M()Ljava/util/List<Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;>; 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 1014166943.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c72f59f]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where e.deptno=d.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 10
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4   (com/neuedu/model/mapper/DepartmentMapper  java/lang/Object getAllDepartment ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lcom/neuedu/model/po/Department;>; getEmployees M()Ljava/util/List<Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;>; 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 1014166943.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c72f59f]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where e.deptno=d.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 10
+DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Reader entry: Department.class
+DEBUG [main] - Reader entry: Employee.class
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Department.class
+DEBUG [main] - Reader entry: Êþº¾   4 %  com/neuedu/model/po/Department  java/lang/Object deptno I dname Ljava/lang/String; dloc <init> ()V Code
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/po/Employee.class
+DEBUG [main] - Reader entry: Êþº¾   4 B  com/neuedu/model/po/Employee  java/lang/Object empno I name Ljava/lang/String; sal D hiredate Ljava/sql/Date; dept  Lcom/neuedu/model/po/Department; <init> ()V Code
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Department matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.po.Employee matches criteria [is assignable to Object]
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Reader entry: DepartmentMapper.class
+DEBUG [main] - Reader entry: DepartmentMapper.xml
+DEBUG [main] - Reader entry: EmployeeMapper.class
+DEBUG [main] - Reader entry: EmployeeMapper.xml
+DEBUG [main] - Listing file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4   (com/neuedu/model/mapper/DepartmentMapper  java/lang/Object getAllDepartment ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lcom/neuedu/model/po/Department;>; getEmployees M()Ljava/util/List<Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;>; 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/DepartmentMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.class
+DEBUG [main] - Reader entry: Êþº¾   4 &  &com/neuedu/model/mapper/EmployeeMapper  java/lang/Object getAllEmployees ()Ljava/util/List; 	Signature 2()Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeById !(I)Lcom/neuedu/model/po/Employee; getEmployeeByName $(Ljava/lang/String;)Ljava/util/List; D(Ljava/lang/String;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition 3(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List; S(Ljava/lang/String;Ljava/sql/Date;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value ename hireda getEmployeeByCondition2 0(Lcom/neuedu/model/po/Employee;)Ljava/util/List; P(Lcom/neuedu/model/po/Employee;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; getEmployeeByCondition3 %(Ljava/util/HashMap;)Ljava/util/List; E(Ljava/util/HashMap;)Ljava/util/List<Lcom/neuedu/model/po/Employee;>; addEmployee !(Lcom/neuedu/model/po/Employee;)V deleteEmployee (I)V updateEmployee (Ljava/lang/String;I)V name empno 
+DEBUG [main] - Find JAR URL: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/itmok/Documents/workspace-sts-3.8.4.RELEASE/TestMyBatis/target/classes/com/neuedu/model/mapper/EmployeeMapper.xml
+DEBUG [main] - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class com.neuedu.model.mapper.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+DEBUG [main] - Created connection 1014166943.
+DEBUG [main] - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c72f59f]
+DEBUG [main] - ==>  Preparing: select e.* ,d.dname,d.dloc from employee e,department d where e.deptno=d.deptno
+DEBUG [main] - ==> Parameters: 
+DEBUG [main] - <==      Total: 10
